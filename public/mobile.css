@@ -7,10 +7,10 @@
     }
 
     .bottom-bar{
-        height: 72px;
-        margin-top: 5px;
+        height: 85px;
+        
     }
-    
+
     /*bottom bar area*/
     .send-btn-box {
         padding: 0;
@@ -20,7 +20,7 @@
         border: 0 none transparent;
         border-radius: 0 10px 10px 0;
         width: 48px;
-        height: 60px;
+        height: 50px;
         margin-right: 8px;
         background: #3b7382;
     }
@@ -34,7 +34,12 @@
         width: 32px;
         margin: 12px 0 0 8px;
     }
+    .send-box-input{
+        margin-top:5px; 
+    }
+
     .send-box {
+        height: 50px;       
         border-radius: 15px 0 0 15px;
         width: calc(100% - 136px);
     }

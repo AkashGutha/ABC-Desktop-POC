@@ -1,0 +1,71 @@
+@media only screen and (max-width: 768px) {
+    .top-bar{
+        height: 65px;
+    }
+    .top-bar h1{
+        font-size: 1.5em;
+    }
+
+    .bottom-bar{
+        height: 72px;
+        margin-top: 5px;
+    }
+    
+    /*bottom bar area*/
+    .send-btn-box {
+        padding: 0;
+        margin: 0;
+        background-repeat: no-repeat;
+        box-shadow: inset 0 0 10px #222;
+        border: 0 none transparent;
+        border-radius: 0 10px 10px 0;
+        width: 48px;
+        height: 60px;
+        margin-right: 8px;
+        background: #3b7382;
+    }
+    .send-btn {
+        display: none;
+        float: none;
+    }
+    .send-btn-image {
+        display: block;
+        height: 32px;
+        width: 32px;
+        margin: 12px 0 0 8px;
+    }
+    .send-box {
+        border-radius: 15px 0 0 15px;
+        width: calc(100% - 136px);
+    }
+    /*chat area*/
+    .chat-area {
+        margin-top: 50px;
+    }
+    .chat-card .message {
+        width: 93%;
+        border-radius: 16px;
+    }
+    .chat-card-left .profile-name-holder {
+        width: 40% !important;
+        border-radius: 32px 24px 0 0 !important;
+    }
+    .chat-card-right .profile-name-holder {
+        width: 40% !important;
+        border-radius: 24px 32px 0 0 !important;
+    }
+    .chat-card-left .time-holder {
+        margin: -40px 0 0 45%;
+    }
+    .chat-card-right .time-holder {
+        margin: 6px 45% 0 0;
+    }
+
+    .chat-card-left .profile-name-holder p{
+        margin-left: -10px;
+    }
+
+    .chat-card-right .profile-name-holder p{
+        margin-right: -10px;
+    }
+}

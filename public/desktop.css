@@ -57,8 +57,7 @@ body {
     float: right;
 }
 
-
-.send-btn-image{
+.send-btn-image {
     display: none;
 }
 
@@ -68,22 +67,21 @@ body {
     float: left;
 }
 
-.smiley{
+.smiley {
     height: 32px;
     width: 32px;
     margin-top: 12px;
 }
 
-.send-box-input{
+.send-box-input {
     border: 0;
     background: transparent;
     color: white;
-
     width: 100%;
     margin-top: 10px;
 }
 
-.send-btn{
+.send-btn {
     background: transparent;
     border: 0;
     margin-top: 10px;
@@ -94,7 +92,7 @@ body {
 
 .chat-area {
     margin-top: 130px;
-        margin-bottom: 110px;
+    margin-bottom: 110px;
 }
 
 .chat-card {
@@ -186,8 +184,10 @@ body {
     text-align: center;
 }
 
+
 /*image card*/
-.image-card{
+
+.image-card {
     background: white;
     padding: 20px;
     border-radius: 24px;
@@ -196,17 +196,53 @@ body {
     margin-top: -24px;
 }
 
-.image-card-right{
+.image-card-right {
     float: right;
     margin-right: 32px;
 }
 
-.image-card-left{
+.image-card-left {
     float: left;
     margin-left: 32px;
 }
 
+.insurance-pic {
+    float: left;
+}
+
+.insurance-pic .insurance-pic-left {
+    width: 55%;
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.insurance-pic .insurance-pic-right {
+    width: 25%;
+    display: inline-block;
+}
+
+.insurance-pic .selected {
+    border: 2px solid #46ABA6;
+}
+
+.insurance-pic .selected span{
+    display: inline-block;
+}
+
+.insurance-pic .selected span::before{
+    content: url("./icons/selected.png");
+    /* absolute */
+    position: relative;
+    z-index: 10000;
+}
+
+.image-card .insurance-pic img{
+    display: inline-block;
+}
+
+
 /*utilities*/
+
 .clear-fix {
     clear: both;
 }

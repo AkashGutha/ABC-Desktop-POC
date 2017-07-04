@@ -1,16 +1,13 @@
 @media only screen and (max-width: 768px) {
-    .top-bar{
+    .top-bar {
         height: 65px;
     }
-    .top-bar h1{
+    .top-bar h1 {
         font-size: 1.5em;
     }
-
-    .bottom-bar{
+    .bottom-bar {
         height: 85px;
-        
     }
-
     /*bottom bar area*/
     .send-btn-box {
         padding: 0;
@@ -34,18 +31,18 @@
         width: 32px;
         margin: 12px 0 0 8px;
     }
-    .send-box-input{
-        margin-top:5px; 
+    .send-box-input {
+        margin-top: 5px;
     }
-
     .send-box {
-        height: 50px;       
+        height: 50px;
         border-radius: 15px 0 0 15px;
         width: calc(100% - 136px);
     }
     /*chat area*/
     .chat-area {
         margin-top: 50px;
+        margin-bottom: 100px;
     }
     .chat-card .message {
         width: 93%;
@@ -65,12 +62,22 @@
     .chat-card-right .time-holder {
         margin: 6px 45% 0 0;
     }
-
-    .chat-card-left .profile-name-holder p{
+    .chat-card-left .profile-name-holder p {
         margin-left: -10px;
     }
-
-    .chat-card-right .profile-name-holder p{
+    .chat-card-right .profile-name-holder p {
         margin-right: -10px;
+    }
+    /*image card*/
+
+    .image-card{
+        margin-top: -24px;
+        width: 93%;
+    }
+    .image-card-right .insurance-pic {
+        width: 100%;
+    }
+    .image-card-left .insurance-pic {
+        width: 100%;
     }
 }

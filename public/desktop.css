@@ -94,6 +94,7 @@ body {
 
 .chat-area {
     margin-top: 130px;
+        margin-bottom: 110px;
 }
 
 .chat-card {
@@ -185,9 +186,27 @@ body {
     text-align: center;
 }
 
+/*image card*/
+.image-card{
+    background: white;
+    padding: 20px;
+    border-radius: 24px;
+    margin-top: 4px;
+    width: 55%;
+    margin-top: -24px;
+}
+
+.image-card-right{
+    float: right;
+    margin-right: 32px;
+}
+
+.image-card-left{
+    float: left;
+    margin-left: 32px;
+}
 
 /*utilities*/
-
 .clear-fix {
     clear: both;
 }
